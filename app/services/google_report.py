@@ -26,8 +26,8 @@ async def spreadsheets_create(wrapper_services: Aiogoogle) -> str:
 
 
 async def set_user_permissions(
-        spreadsheetid: str,
-        wrapper_services: Aiogoogle
+    spreadsheetid: str,
+    wrapper_services: Aiogoogle
 ) -> None:
     permissions_body = {'type': 'user',
                         'role': 'writer',
@@ -42,9 +42,9 @@ async def set_user_permissions(
 
 
 async def spreadsheets_update_value(
-        spreadsheetid: str,
-        charity_projects: list,
-        wrapper_services: Aiogoogle
+    spreadsheetid: str,
+    charity_projects: list,
+    wrapper_services: Aiogoogle
 ) -> None:
     now_date_time = datetime.now().strftime(TIME_PATTERN)
     service = await wrapper_services.discover('sheets', 'v4')
