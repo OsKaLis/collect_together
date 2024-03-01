@@ -131,6 +131,16 @@
 > ```
 
 <div id="header" align="center">
+  <h2>Отчёт в Google Sheets.</h2>
+</div>
+
+> [!NOTE]
+> <img src="https://img.shields.io/badge/http://127.0.0.1:8000/google/_-GET-blue">
+> 
+> ### Вывод
+> ![Интерфейс программы GEryCH](https://github.com/OsKaLis/QRkot_spreadsheets/blob/a4e61499ee06313e1933aaa3d4331c5667e3a8b7/google_report.png)
+
+<div id="header" align="center">
   <h2>Полная документайия команд проекта</h2>
 </div>
 
