@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <h1>Проект QRKot</h1>
+  <h1>Проект Collect-Together</h1>
 </div>
 
 ## Что это за проект, какую задачу он решает, в чём его польза:
@@ -34,7 +34,7 @@
 >   ```
 > * 8 (Запускаем) :uvicorn app.main:app --reload
 
-## Пример работы QRKot :
+## Пример работы Collect-Together :
 <div id="header" align="center">
   <h2>Возвращает список всех проектов</h2>
 </div>
