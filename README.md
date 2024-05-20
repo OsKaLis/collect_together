@@ -14,9 +14,8 @@
 > * 4 (Запускаем виртуальное окружение из папки "collect_together") :source venv/Scripts/activate
 > * 5 (Установка всех нужных библиотек) :pip install -r requirements.txt
 > * 6 (Создаём фаил '.env')
-> * 7 (Настройки для файла .env):
 > * ```
->   APP_TITLE=Приложение для Благотворительного фонда поддержки котиков QRKot.
+>   APP_TITLE=Приложение собирает пожертвования на различные целевые проекты.
 >   DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
 >   APP_AUTHOR=ЮрийЮЮ
 >   AUTHOR_PASS=[password]
@@ -26,7 +25,11 @@
 >   FIRST_SUPERUSER_EMAIL=[MAIL-ADMINA]
 >   FIRST_SUPERUSER_PASSWORD=[PASSWORD-ADMINA]
 >   ```
-> * 8 (Запускаем) :uvicorn app.main:app --reload
+> * 7 (Запускаем) :uvicorn app.main:app --reload
+
+## Cтек технологий:
+<img src="https://img.shields.io/badge/Python_-3.9.10-Green"> <img src="https://img.shields.io/badge/FastAPI_-0.78.0-blue">
+<img src="https://img.shields.io/badge/SQLAlchemy_-1.4.36-yellow"> <img src="https://img.shields.io/badge/Alembic_-1.7.7-red">
 
 ## Пример работы Collect-Together :
 <div id="header" align="center">
@@ -140,10 +143,5 @@
 
 > [!NOTE]
 > ***`http://127.0.0.1:8000/docs#`***
-
-
-## Cтек технологий:
-<img src="https://img.shields.io/badge/Язык программирования:_-Python-Green"> <img src="https://img.shields.io/badge/фреймворк:_-FastAPI-blue">
-<img src="https://img.shields.io/badge/библиотека:_-SQLAlchemy-yellow"> <img src="https://img.shields.io/badge/инструмент:_-Alembic-red">
 
 ## Автор: Юшко Ю.Ю.
