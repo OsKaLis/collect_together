@@ -14,7 +14,7 @@
 > * 4 (Запускаем виртуальное окружение из папки "collect_together") :source venv/Scripts/activate
 > * 5 (Установка всех нужных библиотек) :pip install -r requirements.txt
 > * 6 (Создаём фаил '.env')
-> * ```
+>   ```
 >   APP_TITLE=Приложение собирает пожертвования на различные целевые проекты.
 >   DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
 >   APP_AUTHOR=ЮрийЮЮ
@@ -24,6 +24,18 @@
 >   SECRET=[password]
 >   FIRST_SUPERUSER_EMAIL=[MAIL-ADMINA]
 >   FIRST_SUPERUSER_PASSWORD=[PASSWORD-ADMINA]
+>   EMAIL=[ Свой @gmail.com]
+>   TYPE=service_account
+>   PROJECT_ID=[]
+>   PRIVATE_KEY_ID=[]
+>   PRIVATE_KEY=[]
+>   CLIENT_EMAIL=[]
+>   CLIENT_ID=[]
+>   AUTH_URI=https://accounts.google.com/o/oauth2/auth
+>   TOKEN_URI=https://oauth2.googleapis.com/token
+>   AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+>   CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/pt-project%40operating-tiger-415107.iam.gserviceaccount.com
+>   UNIVERSE_DOMAIN=googleapis.com
 >   ```
 > * 7 (Запускаем) :uvicorn app.main:app --reload
 
