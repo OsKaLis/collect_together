@@ -25,19 +25,21 @@
 >   FIRST_SUPERUSER_EMAIL=[MAIL-ADMINA]
 >   FIRST_SUPERUSER_PASSWORD=[PASSWORD-ADMINA]
 >   EMAIL=[ Свой @gmail.com]
+> * 7 (Создаём проект в Google Cloud Platform)
+> * 8 (Дополнить .env параметры можно Получаем JSON-файл с ключом доступа к сервисному аккаунту)
+>   ```
 >   TYPE=service_account
->   PROJECT_ID=[]
->   PRIVATE_KEY_ID=[]
->   PRIVATE_KEY=[]
->   CLIENT_EMAIL=[]
->   CLIENT_ID=[]
+>   PROJECT_ID=[fluid-dreamer-3.3.1.]
+>   PRIVATE_KEY_ID=[47169bcc4c4......8a331d4b769eb1ff]
+>   PRIVATE_KEY=[-----BEGIN PRIVATE KEY-----\n....bTxwcv\n-----END PRIVATE KEY-----\n]
+>   CLIENT_EMAIL=[test-praktikum@fluid-dreamer-3.3.1..iam.gserviceaccount.com]
+>   CLIENT_ID=[1..10...669..782...07]
 >   AUTH_URI=https://accounts.google.com/o/oauth2/auth
 >   TOKEN_URI=https://oauth2.googleapis.com/token
 >   AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
 >   CLIENT_X509_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/pt-project%40operating-tiger-415107.iam.gserviceaccount.com
 >   UNIVERSE_DOMAIN=googleapis.com
->   ```
-> * 7 (Запускаем) :uvicorn app.main:app --reload
+> * 9 (Запускаем) :uvicorn app.main:app --reload
 
 ## Cтек технологий:
 <img src="https://img.shields.io/badge/Python_-3.9.10-Green"> <img src="https://img.shields.io/badge/FastAPI_-0.78.0-blue">
